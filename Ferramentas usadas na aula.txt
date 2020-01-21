@@ -1,0 +1,25 @@
+FERRAMENTAS USADAS NA AULA
+===========================
+
+https://www.cssmatic.com/box-shadow
+
+============================================================
+Web design responsivo - a janela de exibição
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+==========================================================================
+Scrip js para verificação de senha
+
+ideone.com/doOGXQ
+
+<script>
+function validaSenha (input){ 
+	if (input.value != document.getElementById('txtSenha').value) {
+    input.setCustomValidity('Repita a senha corretamente');
+  } else {
+    input.setCustomValidity('');
+  }
+} 
+</script>
+
+=============================================================================
